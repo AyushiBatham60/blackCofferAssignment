@@ -75,7 +75,6 @@ function Home(){
     return <>
        <div className="homePage">
         <div className="header">
-            
             <h2 className="heading">Dashboard</h2>
             <form onSubmit={apiCall}>
                 <input type="text" placeholder="Search by " name="searchItem" value={seach} className="form-control" onChange={e => setSearch(e.target.value)}></input>

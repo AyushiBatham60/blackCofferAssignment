@@ -54,7 +54,7 @@
     text-align: center;
 }
 .postlst h4{
-    color: green;
+    color: darkgreen;
 }
 .bodyy{
   justify-content: center;
@@ -66,6 +66,3 @@
     margin-left: 10vh;
 }
 
-.nopost{
-    
-}
