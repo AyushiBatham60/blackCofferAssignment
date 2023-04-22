@@ -10,8 +10,6 @@ import Home from "./components/home";
             <Router>
                 <Routes>
                     <Route exact path="/" element={<Home/>}/>
-                    
-                    
                 </Routes>
             </Router>
         </>
