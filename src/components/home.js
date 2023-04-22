@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 function Home(){
     const [seach,setSearch]=useState('');
     const [by,setBy]=useState('');
+    const frzi="a";
     const [dataArray,setDataArray]=useState('');
 
     useEffect(() => {
@@ -106,4 +107,5 @@ function Home(){
         </div>
     </>
 }
+
 export default Home;

@@ -6,6 +6,7 @@ import Home from "./components/home";
 
     return(
         <>
+        
             <Router>
                 <Routes>
                     <Route exact path="/" element={<Home/>}/>
